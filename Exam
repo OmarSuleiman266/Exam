@@ -1,0 +1,47 @@
+import java.io.File;
+
+import java.util.Scanner;
+
+public class Class{
+
+public static void main(String[] args) {
+
+counter1 = 0;
+
+counter2 = 0;
+
+counter3 = 0;
+
+File file = new File("C:\test.txt");
+
+Scanner input = new Scanner(file);
+
+while (input.hasNext()){
+
+String words = input.next();
+
+counter1++;
+
+}
+
+while (input.hasNext()){
+
+String lines = input.nextLine();
+
+counter2++;
+
+}
+
+while (input.hasNext()){
+
+String lines = input.nextLine();
+
+char characters = lines.length();
+
+counter3++;
+
+}
+
+}
+
+}
