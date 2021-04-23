@@ -36,7 +36,7 @@ while (input.hasNext()){
 
 String lines1 = input.nextLine();
 
-int characters = lines.length();
+int characters = lines1.length();
 
 counter3 += characters;
 
