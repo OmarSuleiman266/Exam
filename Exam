@@ -42,11 +42,11 @@ counter3 += characters;
 
 }
 
-System.out.println("Number of words = " + words);
+System.out.println("Number of words = " + counter1);
 
-System.out.println("Number of lines = " + lines);
+System.out.println("Number of lines = " + counter2);
 
-System.out.println("Number of characters = " + characters);
+System.out.println("Number of characters = " + counter3);
 
 }
 
