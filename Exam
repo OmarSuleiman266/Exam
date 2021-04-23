@@ -34,13 +34,19 @@ counter2++;
 
 while (input.hasNext()){
 
-String lines = input.nextLine();
+String lines1 = input.nextLine();
 
 char characters = lines.length();
 
-counter3++;
+counter3 += characters;
 
 }
+
+System.out.println("Number of words = " + words);
+
+System.out.println("Number of lines = " + lines);
+
+System.out.println("Number of characters = " + characters);
 
 }
 
